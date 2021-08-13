@@ -4,11 +4,20 @@ alert(`Olá  ${nome} É Um Prazer Te Conhecer`);
 
 document.write(`Olá ${nome}`)
 
+
 function somarValores(){
   var n1 = document.getElementById("s1").value;
   var n2 = document.getElementById("s2").value;
   var n3 = parseInt(n1) + parseInt(n2)
   alert(`Olá ${nome}  o resultado é: ${n3}`);
+}
+
+function limpar(){
+  var limp = document.getElementById("clear");
+  var s1 = limp.s1;
+  var s2 = limp.s2;
+  s1.value = "";
+  s2.value = "";
 }
 
 function startTime()
